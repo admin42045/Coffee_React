@@ -6,6 +6,7 @@ import Home from "./Pages/Home";
 import GlobalStyle from "./components/GlobalStyle";
 import Promotion from "./Pages/Promotion";
 import Contact from "./Pages/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Contact />
         </Route>
       </Switch>
+      <Footer />
     </>
   );
 }

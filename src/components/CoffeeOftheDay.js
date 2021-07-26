@@ -1,14 +1,14 @@
 import styled from "styled-components";
-import leftcup from "../img/leftcup.png";
+import rightcup from "../img/rightcup.svg";
 import React from "react";
 
-const CoffeeShop = () => {
+const CoffeeOftheDay = () => {
   return (
     <Main>
       <div className="container">
         <Rows>
           <div className="des-cs">
-            <img src={leftcup} alt="csimage" />
+            <img src={rightcup} alt="csimage" />
           </div>
           <div className="des-text">
             <h3>The Coffee Shop Samwyle</h3>
@@ -37,18 +37,18 @@ const CoffeeShop = () => {
 
 const Main = styled.div`
   min-height: 60vh;
-  background: rgb(220, 205, 206);
+  background: rgb(230, 230, 230);
   img {
-    min-height: 40vh;
-    width: 100%;
-    margin: 5rem 8rem;
+    min-height: 20vh;
+    width: 40%;
+    margin: 5rem;
   }
 
   .des-cs {
     flex: 1;
   }
   .des-text {
-    flex: 2;
+    flex: 1;
     margin: 5rem;
   }
   h3 {
@@ -61,11 +61,11 @@ const Main = styled.div`
 `;
 const Rows = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
 
   .des-text {
     margin-left: 10rem;
   }
 `;
 
-export default CoffeeShop;
+export default CoffeeOftheDay;

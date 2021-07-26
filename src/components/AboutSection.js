@@ -67,19 +67,12 @@ const Image = styled.div`
   img {
     width: 25vw;
     height: 70vh;
-    border: 0.1rem solid #129cf3;
-    border-radius: 0.8rem;
+    border-radius: 0.4rem;
     cursor: pointer;
-    transition: all 0.5s ease-in-out;
-
     object-fit: cover;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
       rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
       rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    &:hover {
-      transition: all 0.5s ease-in-out;
-      border: none;
-    }
   }
 `;
 export default AboutSection;

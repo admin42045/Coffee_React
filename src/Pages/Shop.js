@@ -3,11 +3,7 @@ import styled from "styled-components";
 
 class Shop extends Component {
   render() {
-    return (
-      <Header>
-        <h1>Shop designing page soon...</h1>
-      </Header>
-    );
+    return <Header></Header>;
   }
 }
 
