@@ -33,7 +33,7 @@ class AboutSection extends Component {
 }
 
 const About = styled.div`
-  min-height: 90vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -58,12 +58,13 @@ const About = styled.div`
 `;
 const Description = styled.div`
   flex: 1;
-  padding-right: 5rem;
+  margin-left: 8rem;
+  padding-right: 3rem;
 `;
 
 const Image = styled.div`
   flex: 1;
-  padding-left: 9rem;
+  padding-left: 4rem;
   img {
     width: 25vw;
     height: 70vh;
