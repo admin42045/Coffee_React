@@ -19,7 +19,7 @@ const MFooter = styled.div`
   min-height: 50vh;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   position: relative;
   color: #000;
   p {
